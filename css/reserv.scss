@@ -35,7 +35,8 @@ body {
             & > a {
                 color: $cG;
                 &:hover {
-                    border-bottom: $cB;
+                  color: $cB;
+                  text-decoration: underline $cB;
                 }
             }
         }

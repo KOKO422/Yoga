@@ -45,7 +45,9 @@ body {
 }
 
 .nav .nav_list > li > a:hover {
-  border-bottom: black;
+  color: black;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
 }
 
 .nav .nav_list .sns {
@@ -172,6 +174,12 @@ body {
 
 .main .class_btn > a {
   color: white;
+}
+
+.main .class_btn:hover {
+  background: black;
+  color: white;
+  border-radius: 20px;
 }
 
 .footer {

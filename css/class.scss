@@ -35,7 +35,8 @@ body {
             & > a {
                 color: $cG;
                 &:hover {
-                    border-bottom: $cB;
+                    color: $cB;
+                    text-decoration: underline $cB;
                 }
             }
         }
@@ -142,6 +143,11 @@ body {
         margin: 5% auto 10%;
         & > a {
             color: $cW;
+        }
+        &:hover {
+            background: black;
+            color: white;
+            border-radius: 20px;
         }
     }
 }
