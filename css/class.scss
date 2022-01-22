@@ -177,3 +177,15 @@ body {
     }
 }
 
+@media screen and (max-width: 426px) { 
+    /*main*/
+    .class_all {
+        display: none;
+        max-width: 70%;
+        margin: auto;
+        position: relative;
+        .class_box {
+            width: 80%;
+        }
+    }
+}
